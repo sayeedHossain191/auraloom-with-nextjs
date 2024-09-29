@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
     return (
         <div>
-            <header className="bg-white">
+            <header className="bg-white scale-90">
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="md:flex md:items-center md:gap-12">
@@ -30,7 +31,7 @@ const Navbar = () => {
                                     </li>
 
                                     <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"><Link href='/history'></Link> History </a>
                                     </li>
 
                                     <li>
