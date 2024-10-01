@@ -16,48 +16,63 @@ const Trending = () => {
                 <span className="relative z-10 px-6 text-2xl text-[#0077b6] font-montserrat">Trending</span>
             </span>
 
-            <div>
+            <div class=" py-6 sm:py-8 lg:py-12">
+                <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
 
+                    <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
 
-                <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 scale-90'>
+                        <div>
+                            <a href="#" class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="Photo by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
-                    <div className="card card-side bg-base-100 shadow-xl flex flex-col md:flex-row border border-white">
-                        <figure className="md:w-1/2">
-                            <Image
-                                src={img2}
-                                alt="Movie"
-                                className="w-full h-96"
-                            />
-                        </figure>
-                        <div className="card-body md:w-1/2">
-                            <h2 className='text-lg font-semibold'>Laugh Therapy</h2>
-                            <h2 className="card-title text-xl text-white">Mental health awareness and self-care practices</h2>
-                            <p className=''>We have a therapist expert as our guest, Krista Gordon is will share her experience.</p>
-                            <div className="card-actions items-center">
-                                <FaRegPlayCircle className='btn btn-circle btn-sm border-white rounded-full mx-auto' />
-
-                            </div>
+                                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                                    <span class="text-gray-500">Men</span>
+                                    <span class="text-lg font-bold text-gray-800 lg:text-xl">Business Causual</span>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    <div className="card card-side bg-base-100 shadow-xl flex flex-col md:flex-row border border-white">
-                        <figure className="md:w-1/2">
-                            <Image
-                                src={img1}
-                                alt="Movie"
-                                className="w-full h-96"
-                            />
-                        </figure>
-                        <div className="card-body md:w-1/2">
-                            <h2 className='text-lg font-semibold'>Science Explorer</h2>
-                            <h2 className="card-title text-xl text-white">Dating and navigating the modern dating scene</h2>
-                            <p className=''>Unable to grasp something clearly or to think logically and decisively about something.</p>
-                            <div className="card-actions items-center">
-                                <FaRegPlayCircle className='btn btn-circle btn-sm border-white rounded-full mx-auto' />
 
-                            </div>
+
+
+                        <div>
+                            <a href="#" class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1603344797033-f0f4f587ab60?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="Photo by engin akyurt" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                                    <span class="text-gray-500">Women</span>
+                                    <span class="text-lg font-bold text-gray-800 lg:text-xl">Summer Season</span>
+                                </div>
+                            </a>
                         </div>
+
+
+
+                        <div>
+                            <a href="#" class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1552668693-d0738e00eca8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="Photo by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                                    <span class="text-gray-500">Men</span>
+                                    <span class="text-lg font-bold text-gray-800 lg:text-xl">Streetwear</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div>
+                            <a href="#" class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1560269999-cef6ebd23ad3?auto=format&q=75&fit=crop&w=600&h=700" loading="lazy" alt="Photo by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                                    <span class="text-gray-500">Women</span>
+                                    <span class="text-lg font-bold text-gray-800 lg:text-xl">Sale</span>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     );
