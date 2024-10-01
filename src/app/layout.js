@@ -24,15 +24,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <AuthProvider>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
+
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <AuthProvider>
           <Navbar />
           {children}
           <Footer />
-        </body>
-      </AuthProvider>
+        </AuthProvider>
+      </body>
+
     </html>
   );
 }
