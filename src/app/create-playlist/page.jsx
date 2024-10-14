@@ -2,7 +2,7 @@ import Image from 'next/image';
 //import img1 from '../../../public/pexels-dmitry-demidov-515774-3783471.jpg'
 import { IoIosAddCircleOutline } from "react-icons/io";
 
-const createPlaylist = () => {
+const CreatePlaylist = () => {
     return (
         <div>
             <span className="relative flex justify-center mt-10 text-xl font-bold">
@@ -37,4 +37,4 @@ const createPlaylist = () => {
     );
 };
 
-export default createPlaylist;
+export default CreatePlaylist;
